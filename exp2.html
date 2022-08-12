@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Experiment1: Page1
+    </title>
+    <style>
+        *{
+            margin: 0px;
+        }
+
+        .header{
+            
+            background: rgb(2,0,36);
+            background: linear-gradient(180deg, rgba(2,0,36,1) 0%,
+            rgba(3,1,48,1) 6%, rgba(9,9,121,1) 47%, rgba(0,0,0,1) 87%, rgba(0,0,0,1) 100%);
+            padding-top: 15px;
+            padding-bottom: 15px;
+            color: white;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .topnav {
+        
+            background-color: rgb(53, 4, 62);
+            overflow: hidden;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+        .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        }
+        .topnav a.active {
+        background-color: #0441aa;
+        color: white;
+        }
+        .img{
+            border-radius: 25px;
+            box-shadow: 0px 2px 25px rgba(0,0,0,0.15);
+        }
+        .first{
+            margin-top: 10px;
+            margin-bottom: 40px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: larger;
+        }
+        .second{
+            margin-bottom: 20px;
+        }
+        .third{
+            
+            margin-bottom: 20px;
+        }
+        .types{
+            margin: 10px;
+            padding: 5px;
+            font-size: 17px;
+            background-color: #F7F7F7 ;
+            border-radius: 15px;
+
+        }
+        .note{
+            margin: 20px;
+            padding: 5px;
+            background-color: #e00808 ;
+            border-radius: 5px;
+        }
+        p{
+            /*background-color: #0441aa;*/
+            font-size: large;
+        }
+        .footer{
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+            background-color: rgb(53, 4, 62);
+        }
+        .form{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: inline-block;
+            background-color: #5b749f;
+            padding: 12px;
+            border-radius: 20px;
+        }
+        .subb{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            color: white;
+            background-color: #29990a;
+            height: 40px;
+            width: 100px;
+            border-color: #268d09;
+            border-radius: 12px;
+            cursor: pointer;
+
+        }
+        table {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+            width: 100%;
+            border-color:#1e146a;
+            }
+
+            th {
+                text-align: center;
+                padding: 5px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                background-color: #1e146a;
+                color: white;
+                font-size: 14px;
+            }
+            td {
+                text-align: justify;
+                padding: 5px;
+            }
+
+            tr:nth-child(even){
+                background-color: #f2f2f2
+            }
+
+    </style>
+
+</head>
+<body bgcolor="85F4FF">
+    <header class="header"><center>
+        <h1>Technology Blog</h1>
+    </center>
+    </header>
+    <div class="topnav">
+        <a class="active" href="exp2.html">Home</a>
+        <a href="exp2_2.html">Benefits</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>    
+    <div class="first">
+        <h2>Cloud Computing</h2>
+    <center><img class="img" src="https://miro.medium.com/max/640/1*ngkHgQq7ij1NBNr62er3zA.png" height="320" width= "380"></center>
+    </div>
+    <div class="second">  
+    <hr><h3 style="font-family:Impact; margin-bottom: 10px;">What is Cloud Computing?</h3>
+    <p>Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, 
+        you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider like Amazon Web Services (AWS).</p>
+    <p>Cloud computing is named as such because the information being accessed is found remotely in the cloud or a virtual space. Companies that provide cloud services enable 
+        users to store files and applications on remote servers and then access all the data via the Internet.</p>
+    </div>
+    <hr>
+    <div class="third">
+    <h3 style="font-family:Impact ;">Types of Cloud Computing</h3>
+        <div class="types">
+            <strong>Public Cloud</strong>
+            <i>- Public clouds are owned and operated by a third-party cloud service providers, which deliver their computing resources like servers and storage over the Internet. 
+                Microsoft Azure is an example of a public cloud. With a public cloud, all hardware, software and other supporting infrastructure is owned and managed by the cloud provider.
+                 You access these services and manage your account using a web browser.</i>
+
+        </div>
+        <div class="types">
+            <strong>Private Cloud</strong>
+            <i>- A private cloud refers to cloud computing resources used exclusively by a single business or organisation. A private cloud can be physically located on the company’s 
+                on-site datacenter. Some companies also pay third-party service providers to host their private cloud. A private cloud is one in which the services and infrastructure are 
+                maintained on a private network.</i>
+
+        </div>
+        <div class="types">
+            <strong>Hybrid Cloud</strong>
+            <i>- Hybrid clouds combine public and private clouds, bound together by technology that allows data and applications to be shared between them. By allowing data and 
+                applications to move between private and public clouds, a hybrid cloud gives your business greater flexibility, more deployment options and helps optimise your existing 
+                infrastructure, security and compliance.</i>
+
+        </div>
+        <div class="note">
+            <b>Note:</b><i style="color: white;"> Not all clouds are the same and not one type of cloud computing is right for everyone. Several different models, types and services have evolved to help offer
+                the right solution for your needs.</i>
+        </div>
+    
+
+    </div>
+    <div class="fourth">
+    <hr>
+    <h3 style="font-family:Impact">Cloud Computing Service Categories</h3>
+    <table border="1">
+        <tr>
+            <th>Infrastructure as a service (IaaS)</th>
+            <th>Platform as a service (PaaS)</th>
+            <th>Serverless computing</th>
+            <th>Software as a service (SaaS)</th>
+        </tr>
+        <tr>
+            <td>The most basic category of cloud computing services. With IaaS, you rent IT infrastructure—servers and virtual machines (VMs), storage, networks, operating systems—from 
+                a cloud provider on a pay-as-you-go basis.</td>
+            <td>PaaS is designed to make it easier for developers to quickly create web or mobile apps, without worrying about setting up or managing the underlying infrastructure of servers, 
+                storage, network and databases needed for development.</td>
+            <td>Overlapping with PaaS, serverless computing focuses on building app functionality without spending time continually managing the servers and infrastructure required to do so. 
+                 Serverless architectures are highly scalable and event-driven.rs</td>
+            <td>With SaaS, cloud providers host and manage the software application and underlying infrastructure and handle any maintenance, like software upgrades and security patching.
+                 Users connect to the application over the Internet, usually with a web browser on their phone, tablet or PC.</td>
+        </tr>
+    </table>
+    </div>
+    <hr>
+    <footer class="footer">
+        <h2>Feel Free to Contact or for Query</h2>
+        <form class="form">
+            <label for="name">Name:</label>
+            <input style="background-color:#98a9c8;" placeholder="Enter Name" type="text" name="name" id="name">
+            <label for="email">Email:</label>
+            <input style="background-color:#98a9c8; type="email" placeholder="Enter Email" name="email" id="name"><br>
+            <label for="query">Query (if any):</label><br>
+            <textarea style="background-color:#98a9c8; rows="3" cols="57" placeholder="Enter Query" ></textarea><br>
+            <input class="subb" type="submit" value="Submit">
+        </form>
+
+    </footer>
+    
+</body>
+</html>
